@@ -254,7 +254,7 @@ cv2.setWindowProperty('Camera Output', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLS
 videoFrame = cv2.VideoCapture(0)
 
 # Initialize hand haar cascade classifier
-palm_cascade = cv2.CascadeClassifier('../haarcascades/Hand.Cascade.1.xml') 
+palm_cascade = cv2.CascadeClassifier('./Hand.Cascade.1.xml') 
 print 'Palm classifier initialized:', not palm_cascade.empty()
 
 # Grab video frame, decode it and return next video frame

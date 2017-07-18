@@ -1,6 +1,10 @@
 ## Human hand (palm) detection and tracking.
 
-### Algorithm states: 
+Created by: Tomislav Kis, tkis.cro@gmail.com
+
+Date: 10 June 2016
+
+### Algorithm states
 
 State 0: human skin tone detection, subtraction of 3 successive frames to obtain movement of skin regions, detection of vertical upward movement
 
@@ -8,12 +12,14 @@ State 1: classification of front human palm at the potential palm region
 
 State 2: tracking the detected palm using template matching
 
-### How to use:
-    Raise your hand. If detected hold for a moment. If classified successfully move and control. 
+### Requirements
 
-Created by: Tomislav Kis, tkis.cro@gmail.com
+Python2 with: OpenCV, Numpy
 
-Date: 10 June 2016
+ **Note:** Can be easily modified for Python3 
+
+### How to use
+Raise your hand. If detected hold for a moment. If classified successfully move and control. 
 
 ### ToDo
 
