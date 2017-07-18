@@ -2,7 +2,7 @@
 
 ### Algorithm states: 
 
-State 0: human skin tone detection, subtraction of 3 successive frames to obtain movement of skin regions, detection of vertical upwards movement
+State 0: human skin tone detection, subtraction of 3 successive frames to obtain movement of skin regions, detection of vertical upward movement
 
 State 1: classification of front human palm at the potential palm region
 
