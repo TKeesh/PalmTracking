@@ -1,8 +1,8 @@
 ## Human hand (palm) detection and tracking.
 
-Created by: Tomislav Kis, tkis.cro@gmail.com
+  Created by: Tomislav Kis, tkis.cro@gmail.com
 
-Date: 10 June 2016
+  Date: 10 June 2016
 
 ### Algorithm states
 
